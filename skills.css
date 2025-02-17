@@ -1,0 +1,170 @@
+.back{
+    background-color: rgb(30, 28, 28);
+}
+.card{
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 30px 100px;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 600px; 
+    border-radius: 25px;
+    border-color: rgb(255, 255, 255);
+}
+.card{
+    background: rgba(64, 63, 63, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+float: right;
+}
+
+li a {
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+backdrop-filter: blur(5px);
+justify-content:center;
+align-items:center;
+}
+li a:hover {
+background-color: orange;
+
+}
+.para{
+    text-align: center;
+    color: white;
+}
+.coding{
+    text-align: left;
+    color: orange;
+    font-weight: bold;
+
+}
+.parac{
+    text-align: center;
+    color: white;
+}
+.img{
+    background-color: transparent;
+}
+.design{
+    color: orange;
+    text-align: left;
+    font-weight: bold;
+}
+.skills{
+
+    width: 100%;
+    
+    max-width: 600px;
+    
+    padding: 0 20px;
+    
+    }
+    
+    .skill-name{
+    
+    font-size: 18px;
+    
+    font-weight: 700;
+    
+    color: #f1f1f1;
+    
+    text-transform: uppercase;
+    
+    margin: 20px 0;
+    text-align: left;
+}
+.skill-bar{
+
+    height: 14px;
+    
+    background:
+    
+    #2f2f2f;
+    
+    border-radius: 3px;
+    text-align: left;}
+    
+    .skill-per{
+    
+    height: 14px;
+    
+    background: orange;
+    
+    border-radius: 3px;
+    text-align: left;
+    position:relative;
+    animation: fillBars 2s 1;
+    }
+    .skill-per::before{
+
+        content: attr(per);
+        
+        position: absolute;
+        
+        padding: 4px 6px;
+        
+        background:
+        
+        #f1f1f1;
+        
+        border-radius:
+        
+        4px;
+        
+        font-size: 12px;
+        
+        top: -35px;
+        
+        right: 0;
+        
+        transform: translateX(50%);
+        
+        }
+        
+        .skill-per::after{
+        
+        content: "";
+        
+        position: absolute;
+        
+        width: 10px;
+        
+        height: 10px;
+        
+        background: #f1f1f1;
+        
+        top: -20px;
+        
+        right: 0;
+        
+        transform: trar 2px
+        
+        border-radius: 2px;
+        }
+    @keyframes fillBars {
+        from {
+            width: 0;
+        }
+        to{
+            width: 100%;
+        }
+        
+    }
+    .sk{
+        color: white;
+    }

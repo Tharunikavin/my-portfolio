@@ -1,0 +1,139 @@
+.back{
+    background-color: rgb(30, 30, 30);
+}
+.contact{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+.card{
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 30px 100px;
+    background-color: rgb(255, 255, 255);
+    width: 1000px;
+    height: 600px; 
+    border-radius: 25px;
+    border-color: rgb(255, 255, 255);
+}
+.card{
+    background: rgba(64, 63, 63, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+.head{
+    color: orange;
+}
+.mail{
+    color: rgb(255, 255, 255);
+}
+.linkedin{
+    color: rgb(255, 255, 255);
+    text-decoration:none;
+    font-size: x-large;
+}
+.container
+{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+}
+.container .contactInfo
+{
+width: 50%;
+display: flex;
+flex-direction: column;
+}
+.container .contactInfo .box
+{
+position: relative;
+padding: 20px 0;
+display: flex;
+}
+.container .contactInfo .box .icon
+{
+min-width: 60px;
+height: 60px;
+background: #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+font-size: 22px;
+margin-right: -10px;
+}
+.container .contactInfo .box .text
+{
+display: flex;
+margin-left: 20px;
+font-size: 16px;
+color: #fff;
+flex-direction: column;
+font-weight: 300;
+}
+.container .contactInfo .box .text h3
+{
+font-weight: 500;
+color: #ffffff
+}
+.contactForm
+{
+width: 40%;
+padding: 40px;
+margin-top: -45px;
+}
+.contactForm h2
+{
+font-size: 30px;
+color: #333;
+font-weight: 500;
+}
+.contactForm .inputBox
+{
+position: relative;
+width: 100%;
+margin-top: 10px;
+}
+.contactForm .inputBox input,
+textarea
+{
+width: 100%;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+}
+.contactForm .inputBox span
+{
+position: absolute;
+Left: 0;
+padding: 6px 20px;
+font-size: 16px;
+margin: 10px 0;
+pointer-events: none;
+transition: 0.5s;
+color: #666;
+}
+.contactForm .inputBox input:focus ~ span
+{
+color: #ffffff;
+font-size: 12px;
+transform: translate(-20px);
+}
+.mail{
+    text-decoration:none;
+    font-size: x-large;
+}
+.message{
+    color: orange;
+}
+.button{
+    background-color: orange;
+    border-radius: 20%;
+    margin: 10px;
+    width: 60px;
+    height: 25px;
+}
